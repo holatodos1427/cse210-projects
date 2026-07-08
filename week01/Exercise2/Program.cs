@@ -37,8 +37,8 @@ class Program
         Console.WriteLine($"Your grade is: {letter}{sign}");
 
         if (grade >= 70)
-            Console.WriteLine("Congratulations, you passed the course!");
+            Console.WriteLine("Congratulations, you passed This course course!");
         else
-            Console.WriteLine("You did not pass, but keep working hard for next time!");
+            Console.WriteLine("You did not pass, but keep working hard for next test! You can do it!");
     }
 }

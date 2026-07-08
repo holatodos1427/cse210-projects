@@ -15,14 +15,15 @@ class Program
 
             while (guess != magicNumber)
             {
+                Console.Write("Welcome to the Magic Number guess! Guess a number between 1 and 100. Try it!\n");
                 Console.Write("What is your guess? ");
                 guess = int.Parse(Console.ReadLine());
                 guessCount++;
 
                 if (guess < magicNumber)
-                    Console.WriteLine("Higher");
+                    Console.WriteLine("It is higher");
                 else if (guess > magicNumber)
-                    Console.WriteLine("Lower");
+                    Console.WriteLine("It is lower");
                 else
                     Console.WriteLine("You guessed it!");
             }

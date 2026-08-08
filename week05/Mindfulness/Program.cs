@@ -6,9 +6,8 @@ namespace Mindfulness
 {
     class Program
     {
-        // extra feature added to exceed core requirements:
-        // The program keeps a session log of how many times each activity
-        // has been completed, and displays a short summary when the user quits.
+        // extra feature added to exceed core requirements
+        // the code keeps a session log of how many times each activity has been completed, and displays a short summary when the user quits.
         static void Main(string[] args)
         {
             Dictionary<string, int> sessionLog = new Dictionary<string, int>

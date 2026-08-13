@@ -2,8 +2,7 @@ using System;
 
 namespace ExerciseTracking
 {
-    // Swimming: we're given the number of laps, and each lap is 50
-    // meters, so distance comes from that.
+
     public class Swimming : Activity
     {
         private int _laps;

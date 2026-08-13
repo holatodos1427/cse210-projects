@@ -2,8 +2,7 @@ using System;
 
 namespace ExerciseTracking
 {
-    // Running: we're given the distance, so speed and pace just get
-    // calculated from that.
+
     public class Running : Activity
     {
         private double _distance;
